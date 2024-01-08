@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class DataTypes {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter ID of a Student: ");
+		int num1 = input.nextInt();
+		System.out.println("Enter Name of Student: ");
+		String name = input.nextLine();
+		System.out.println("Enter Gender of a Student: ");
+		char gender = input.next().charAt(0);
+		System.out.println("Enter CGPA: ");
+		double cgpa = input.nextDouble();
+		System.out.println("*****************************");
+		System.out.println("ID: "+num1);
+		System.out.println("Name: "+name);
+		System.out.println("Gender: "+gender);
+		System.out.println("CGPA: "+cgpa);
+		
+	}
+
+}
